@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: 'Alike', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#note {
+    font-size: 164px;
+    display: inline-block;
+    height: 180px;
+    text-align: left;
+}
+
+#detector {
+    width: 300px;
+    height: 300px;
+    border: 4px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+#output {
+    width: 300px;
+    height: 42px;
+    margin-top: 20px;
+}
+
+.pitch {
+    font-size: 24px;
+}
+
+.note {
+    font-size: 72px;
+}
+
+.detune {
+    font-size: 18px;
+}
+
+#flat,
+#sharp {
+    display: none;
+}
+
+.flat #flat,
+.sharp #sharp {
+    display: inline;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    20%,
+    60% {
+        transform: rotate(-25deg);
+    }
+    40%,
+    80% {
+        transform: rotate(10deg);
+    }
+}
